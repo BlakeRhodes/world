@@ -12,7 +12,7 @@ import {SafeUrlPipe} from "./safe-url.pipe";
 })
 export class AppComponent {
   title = 'world';
-  url: string = 'https://www.neoarcadia.online/Desert.html'
+  url: string = 'https://www.neoarcadia.online/NeoArcadia.html'
 
   changePage($event: string) {
     this.url = $event;
