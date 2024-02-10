@@ -97,3 +97,5 @@ export const DEFAULT_WORLDBOOK: Map<string, string> = new Map<string, string>([
   ["DC0202", "https://www.neoarcadia.online/adventures/Techno-Bandits-of-Turing-Wood/Hexes/DCXXXX-Special-Data-Center-Trial.html"],
   ["DC0302", "https://www.neoarcadia.online/adventures/Techno-Bandits-of-Turing-Wood/Hexes/DCXXXX-Special-Data-Center-Trial.html"],
 ]);
+
+export const FAIR_ALGORITHMIA_OH_SHINING_CLOUD = 'https://www.neoarcadia.online/world/Algorithmia.html'

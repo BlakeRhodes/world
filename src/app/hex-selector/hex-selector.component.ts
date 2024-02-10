@@ -1,6 +1,6 @@
 import {Component, EventEmitter, Output} from '@angular/core';
 import {FormsModule} from "@angular/forms";
-import {DEFAULT_WORLDBOOK} from "../constants";
+import {DEFAULT_WORLDBOOK, FAIR_ALGORITHMIA_OH_SHINING_CLOUD} from "../constants";
 
 @Component({
   selector: 'app-hex-selector',
@@ -23,6 +23,8 @@ export class HexSelectorComponent {
     if(page){
       this.page.emit(page);
       console.log(page);
+    } else {
+      this.page.emit(FAIR_ALGORITHMIA_OH_SHINING_CLOUD)
     }
   }
 }
